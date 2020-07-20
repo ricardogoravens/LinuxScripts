@@ -6,7 +6,7 @@
 # - testa ping do servidor
 LINK="https://smartnx.backupmanager.info/downloads/softwares/smartnx-vpro-nix.tar.gz"
 HOSTNAME=`hostname`
-ping -c 2 128.56.12.7 >>/dev/null
+ping -c 2 $HOSTNAME >>/dev/null
 
 if  [ $? == 0 ]
 then
