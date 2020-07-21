@@ -16,10 +16,6 @@ then
 
     tar xvzf smartnx-vpro-nix.tar.gz
 
-    cd /bin
-
-    ./install.sh
-
 else
     echo "FAVOR VERIFICAR O PING DO SERVIDOR"
 fi
